@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="3c15821d3b021210cf98dda9d41eeb37" label="Internship" max_length="40" name="sn_internship_pl_0_internship" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Position" mandatory="true" max_length="40" name="position" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Company" mandatory="true" max_length="40" name="company" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" value="open"/>
+                <element inactive_on_update="false" label="Closed" value="closed"/>
+            </choice>
+        </element>
+    </element>
+</database>

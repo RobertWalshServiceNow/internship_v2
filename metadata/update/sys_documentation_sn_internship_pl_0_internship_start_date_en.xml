@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="start_date" label="Start Date" language="en" table="sn_internship_pl_0_internship">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>start_date</element>
+            <help/>
+            <hint/>
+            <label>Start Date</label>
+            <language>en</language>
+            <name>sn_internship_pl_0_internship</name>
+            <plural>Start Dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-22 17:38:15</sys_created_on>
+            <sys_id>0915821d3b021210cf98dda9d41eeb51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Start Date</sys_name>
+            <sys_package display_value="Internship Placement Manager" source="sn_internship_pl_0">6015421d3b021210cf98dda9d41eebc2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Internship Placement Manager">6015421d3b021210cf98dda9d41eebc2</sys_scope>
+            <sys_update_name>sys_documentation_sn_internship_pl_0_internship_start_date_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-22 17:38:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
