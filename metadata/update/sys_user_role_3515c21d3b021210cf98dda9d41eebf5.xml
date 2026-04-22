@@ -4,7 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>Can view their placements.</description>
         <elevated_privilege>false</elevated_privilege>
-        <federated_id>imjaFphJj5ytRpKxG6vH1g8zQdP7S27c+HqCKVWwCY8=</federated_id>
+        <federated_id/>
         <grantable>true</grantable>
         <includes_roles/>
         <name>sn_internship_pl_0.student</name>
