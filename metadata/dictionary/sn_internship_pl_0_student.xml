@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="6815421d3b021210cf98dda9d41eebcd" label="Student" max_length="40" name="sn_internship_pl_0_student" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Major" mandatory="true" max_length="40" name="major" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Year" mandatory="true" max_length="40" name="year" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Student Name" mandatory="true" max_length="40" name="student_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Contact Details" mandatory="true" max_length="40" name="contact_details" type="string"/>
-    </element>
-</database>
