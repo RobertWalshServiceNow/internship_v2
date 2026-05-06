@@ -5,5 +5,5 @@
     "licensing": {
         "enforceLicense": "none"
     },
-    "packageResolverVersion": ""
+    "packageResolverVersion": "1.0.0"
 }

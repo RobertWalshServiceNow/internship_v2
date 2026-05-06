@@ -1,3 +1,5 @@
+import { CatalogItemRecordProducer, DateVariable, ReferenceVariable } from '@servicenow/sdk/core'
+
 export const addNewStudentPlacement = CatalogItemRecordProducer({
     $id: Now.ID['3d15061d3b021210cf98dda9d41eeb88'],
     name: 'Add New Student Placement',

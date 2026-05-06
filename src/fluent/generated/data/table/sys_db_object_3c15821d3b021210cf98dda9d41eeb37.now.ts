@@ -1,3 +1,5 @@
+import { ChoiceColumn, DateColumn, StringColumn, Table } from '@servicenow/sdk/core'
+
 export const sn_internship_pl_0_internship = Table({
     actions: ['read', 'update', 'create'],
     allowClientScripts: true,

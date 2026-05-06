@@ -1,3 +1,5 @@
+import { Acl } from '@servicenow/sdk/core'
+
 Acl({
     $id: Now.ID['ad15c21d3b021210cf98dda9d41eeb43'],
     type: 'record',

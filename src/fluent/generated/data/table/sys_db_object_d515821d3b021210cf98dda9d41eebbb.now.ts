@@ -1,3 +1,5 @@
+import { DateColumn, ReferenceColumn, Table } from '@servicenow/sdk/core'
+
 export const sn_internship_pl_0_placement = Table({
     actions: ['read', 'update', 'create'],
     allowClientScripts: true,

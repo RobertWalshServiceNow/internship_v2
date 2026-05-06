@@ -5,9 +5,85 @@ declare global {
         namespace Internal {
             interface Keys extends KeysRegistry {
                 explicit: {
+                    '3515c21d3b021210cf98dda9d41eebfc': {
+                        table: 'sys_security_acl'
+                        id: '3515c21d3b021210cf98dda9d41eebfc'
+                    }
+                    '3d15061d3b021210cf98dda9d41eeb14': {
+                        table: 'sc_cat_item_producer'
+                        id: '3d15061d3b021210cf98dda9d41eeb14'
+                    }
+                    '3d15061d3b021210cf98dda9d41eeb88': {
+                        table: 'sc_cat_item_producer'
+                        id: '3d15061d3b021210cf98dda9d41eeb88'
+                    }
+                    '6115c21d3b021210cf98dda9d41eeba3': {
+                        table: 'sys_security_acl'
+                        id: '6115c21d3b021210cf98dda9d41eeba3'
+                    }
+                    '6115c21d3b021210cf98dda9d41eebad': {
+                        table: 'sys_security_acl'
+                        id: '6115c21d3b021210cf98dda9d41eebad'
+                    }
+                    '6d15c21d3b021210cf98dda9d41eeb39': {
+                        table: 'sys_security_acl'
+                        id: '6d15c21d3b021210cf98dda9d41eeb39'
+                    }
+                    '7515c21d3b021210cf98dda9d41eebf6': {
+                        table: 'sys_embedded_help_role'
+                        id: '7515c21d3b021210cf98dda9d41eebf6'
+                    }
+                    a515c21d3b021210cf98dda9d41eeb2f: {
+                        table: 'sys_security_acl'
+                        id: 'a515c21d3b021210cf98dda9d41eeb2f'
+                    }
+                    a915c21d3b021210cf98dda9d41eeb82: {
+                        table: 'sys_security_acl'
+                        id: 'a915c21d3b021210cf98dda9d41eeb82'
+                    }
+                    a915c21d3b021210cf98dda9d41eeb8c: {
+                        table: 'sys_security_acl'
+                        id: 'a915c21d3b021210cf98dda9d41eeb8c'
+                    }
+                    ad15c21d3b021210cf98dda9d41eeb43: {
+                        table: 'sys_security_acl'
+                        id: 'ad15c21d3b021210cf98dda9d41eeb43'
+                    }
                     bom_json: {
                         table: 'sys_module'
                         id: 'd85cc69f179d44d48e2984462625d3cb'
+                    }
+                    e115c21d3b021210cf98dda9d41eeb5a: {
+                        table: 'sys_security_acl'
+                        id: 'e115c21d3b021210cf98dda9d41eeb5a'
+                    }
+                    e115c21d3b021210cf98dda9d41eeb64: {
+                        table: 'sys_security_acl'
+                        id: 'e115c21d3b021210cf98dda9d41eeb64'
+                    }
+                    e115c21d3b021210cf98dda9d41eeb6e: {
+                        table: 'sys_security_acl'
+                        id: 'e115c21d3b021210cf98dda9d41eeb6e'
+                    }
+                    e115c21d3b021210cf98dda9d41eeb78: {
+                        table: 'sys_security_acl'
+                        id: 'e115c21d3b021210cf98dda9d41eeb78'
+                    }
+                    e515c21d3b021210cf98dda9d41eeb29: {
+                        table: 'sys_embedded_help_role'
+                        id: 'e515c21d3b021210cf98dda9d41eeb29'
+                    }
+                    ec15421d3b021210cf98dda9d41eebc8: {
+                        table: 'sys_app_info'
+                        id: 'ec15421d3b021210cf98dda9d41eebc8'
+                    }
+                    ed15c21d3b021210cf98dda9d41eeb4d: {
+                        table: 'sys_security_acl'
+                        id: 'ed15c21d3b021210cf98dda9d41eeb4d'
+                    }
+                    'internship-date-validation': {
+                        table: 'sys_script_client'
+                        id: '810ac32f696d49f88ced8010c23f0de8'
                     }
                     package_json: {
                         table: 'sys_module'
@@ -115,6 +191,7 @@ declare global {
                     {
                         table: 'fx_price'
                         id: '3115061d3b021210cf98dda9d41eeb51'
+                        deleted: true
                         key: {
                             id: '7915061d3b021210cf98dda9d41eeb4b'
                             field: 'price_if_checked'
@@ -132,6 +209,7 @@ declare global {
                     {
                         table: 'fx_price'
                         id: '3115061d3b021210cf98dda9d41eebb9'
+                        deleted: true
                         key: {
                             id: 'b115061d3b021210cf98dda9d41eeba7'
                             field: 'price_if_checked'
@@ -196,6 +274,7 @@ declare global {
                     {
                         table: 'fx_price'
                         id: '4a15061d3b021210cf98dda9d41eebc3'
+                        deleted: true
                         key: {
                             id: 'ca15061d3b021210cf98dda9d41eebbe'
                             field: 'rec_price_if_checked'
@@ -208,6 +287,14 @@ declare global {
                             name: 'sn_internship_pl_0_placement'
                             element: 'internship'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice_set'
+                        id: '54abfc1b0be847209de23c9a3b23cb7c'
+                        key: {
+                            name: 'sn_internship_pl_0_internship'
+                            element: 'status'
                         }
                     },
                     {
@@ -304,6 +391,7 @@ declare global {
                     {
                         table: 'fx_price'
                         id: '7115061d3b021210cf98dda9d41eeb74'
+                        deleted: true
                         key: {
                             id: 'f115061d3b021210cf98dda9d41eeb6f'
                             field: 'rec_price_if_checked'
@@ -348,6 +436,7 @@ declare global {
                     {
                         table: 'fx_price'
                         id: '7915061d3b021210cf98dda9d41eeb15'
+                        deleted: true
                         key: {
                             id: '3d15061d3b021210cf98dda9d41eeb14'
                             field: 'price'
@@ -365,6 +454,7 @@ declare global {
                     {
                         table: 'fx_price'
                         id: '7915061d3b021210cf98dda9d41eeb89'
+                        deleted: true
                         key: {
                             id: '3d15061d3b021210cf98dda9d41eeb88'
                             field: 'price'
@@ -413,6 +503,7 @@ declare global {
                     {
                         table: 'fx_price'
                         id: '8215061d3b021210cf98dda9d41eebc4'
+                        deleted: true
                         key: {
                             id: 'ca15061d3b021210cf98dda9d41eebbe'
                             field: 'price_if_checked'
@@ -499,6 +590,7 @@ declare global {
                     {
                         table: 'fx_price'
                         id: 'b115061d3b021210cf98dda9d41eeba1'
+                        deleted: true
                         key: {
                             id: '3d15061d3b021210cf98dda9d41eeb8f'
                             field: 'rec_price_if_checked'
@@ -534,6 +626,7 @@ declare global {
                     {
                         table: 'fx_price'
                         id: 'b515061d3b021210cf98dda9d41eeb21'
+                        deleted: true
                         key: {
                             id: 'b515061d3b021210cf98dda9d41eeb1c'
                             field: 'rec_price_if_checked'
@@ -542,6 +635,7 @@ declare global {
                     {
                         table: 'fx_price'
                         id: 'b915061d3b021210cf98dda9d41eeb74'
+                        deleted: true
                         key: {
                             id: 'f115061d3b021210cf98dda9d41eeb6f'
                             field: 'price_if_checked'
@@ -550,6 +644,7 @@ declare global {
                     {
                         table: 'fx_price'
                         id: 'bd15061d3b021210cf98dda9d41eeb38'
+                        deleted: true
                         key: {
                             id: '3115061d3b021210cf98dda9d41eeb34'
                             field: 'rec_price_if_checked'
@@ -558,6 +653,7 @@ declare global {
                     {
                         table: 'fx_price'
                         id: 'bd15061d3b021210cf98dda9d41eeb5b'
+                        deleted: true
                         key: {
                             id: '3115061d3b021210cf98dda9d41eeb57'
                             field: 'rec_price_if_checked'
@@ -703,6 +799,7 @@ declare global {
                     {
                         table: 'fx_price'
                         id: 'f515061d3b021210cf98dda9d41eeb39'
+                        deleted: true
                         key: {
                             id: '3115061d3b021210cf98dda9d41eeb34'
                             field: 'price_if_checked'
@@ -711,6 +808,7 @@ declare global {
                     {
                         table: 'fx_price'
                         id: 'f515061d3b021210cf98dda9d41eeb50'
+                        deleted: true
                         key: {
                             id: '7915061d3b021210cf98dda9d41eeb4b'
                             field: 'rec_price_if_checked'
@@ -719,6 +817,7 @@ declare global {
                     {
                         table: 'fx_price'
                         id: 'f515061d3b021210cf98dda9d41eeb5c'
+                        deleted: true
                         key: {
                             id: '3115061d3b021210cf98dda9d41eeb57'
                             field: 'price_if_checked'
@@ -727,6 +826,7 @@ declare global {
                     {
                         table: 'fx_price'
                         id: 'f515061d3b021210cf98dda9d41eebb8'
+                        deleted: true
                         key: {
                             id: 'b115061d3b021210cf98dda9d41eeba7'
                             field: 'rec_price_if_checked'
@@ -735,6 +835,7 @@ declare global {
                     {
                         table: 'fx_price'
                         id: 'f915061d3b021210cf98dda9d41eeba1'
+                        deleted: true
                         key: {
                             id: '3d15061d3b021210cf98dda9d41eeb8f'
                             field: 'price_if_checked'
@@ -743,6 +844,7 @@ declare global {
                     {
                         table: 'fx_price'
                         id: 'fd15061d3b021210cf98dda9d41eeb21'
+                        deleted: true
                         key: {
                             id: 'b515061d3b021210cf98dda9d41eeb1c'
                             field: 'price_if_checked'

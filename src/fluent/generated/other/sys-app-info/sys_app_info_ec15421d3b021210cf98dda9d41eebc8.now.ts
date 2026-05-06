@@ -1,3 +1,5 @@
+import { Record } from '@servicenow/sdk/core'
+
 Record({
     $id: Now.ID['ec15421d3b021210cf98dda9d41eebc8'],
     table: 'sys_app_info',

@@ -1,3 +1,5 @@
+import { CatalogItemRecordProducer, DateVariable, MultipleChoiceVariable, SingleLineTextVariable } from '@servicenow/sdk/core'
+
 export const addAnInternshipOpportunity = CatalogItemRecordProducer({
     $id: Now.ID['3d15061d3b021210cf98dda9d41eeb14'],
     name: 'Add an internship opportunity',

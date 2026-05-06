@@ -1,3 +1,5 @@
+import { IntegerColumn, StringColumn, Table } from '@servicenow/sdk/core'
+
 export const sn_internship_pl_0_student = Table({
     actions: ['read', 'update', 'create'],
     allowClientScripts: true,
